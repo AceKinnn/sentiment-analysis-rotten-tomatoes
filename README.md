@@ -19,7 +19,7 @@ Predicts whether movie reviews are **Fresh** or **Rotten** based on Rotten Tomat
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/sentiment-analysis-rotten-tomatoes.git
+git clone https://github.com/AceKinnn/sentiment-analysis-rotten-tomatoes.git
 cd sentiment-analysis-rotten-tomatoes/backend
 
 # Install dependencies
