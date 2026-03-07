@@ -1,0 +1,18 @@
+# Web Framework
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# ML & Data
+scikit-learn==1.6.1          # Match training version to avoid warnings
+pandas==2.2.3                # Required for loading pickled models
+numpy==2.0.2                 # Core dependency
+joblib==1.4.2                # Model serialization
+dill==0.3.9                  # Required for complex pickle objects
+
+# NLP
+nltk==3.9.1
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.9.2
+python-multipart==0.0.12

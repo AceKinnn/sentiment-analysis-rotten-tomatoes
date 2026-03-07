@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: sentiment-analysis-api
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0
+      - key: PORT
+        value: 8000
+      - key: ALLOWED_ORIGINS
+        value: http://localhost:3000,https://your-portfolio.vercel.app
+    healthCheckPath: /health
+    autoDeploy: true
