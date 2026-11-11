@@ -1,5 +1,14 @@
 # 🎬 Movie Sentiment Analysis API
 
+> [!NOTE]
+> **Archived:** this project has been refined and merged into my portfolio.
+> Its model now runs in the browser instead of on a Python API.
+>
+> - Live: https://acekinnn-portfolio.vercel.app/movie-sentiment-analysis
+> - Code: [acekinnn-portfolio/src/app/movie-sentiment-analysis](https://github.com/AceKinnn/acekinnn-portfolio/tree/main/src/app/movie-sentiment-analysis)
+>
+> This repository is kept read-only for its history.
+
 Predicts whether movie reviews are **Fresh** or **Rotten** based on Rotten Tomatoes critic data.
 
 ## 📊 Model Performance
